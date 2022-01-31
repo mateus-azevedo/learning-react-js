@@ -19,7 +19,7 @@ export default class FormularioCadastro extends Component {
           type="text"
           placeholder="Título"
           className="form-cadastro_input"
-          onChange={this.handleChangeTitle}
+          onChange={this.handleChangeTitle.bind(this)}
         />
 
         <textarea
