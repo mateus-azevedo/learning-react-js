@@ -1,5 +1,7 @@
 /*
   Ser autenticavel significa ter o metodo autenticar
+
+  Duck Typing => https://pt.wikipedia.org/wiki/Duck_typing
 */
 
 export class SistemaAutenticacao {
