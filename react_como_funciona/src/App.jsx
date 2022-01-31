@@ -5,15 +5,22 @@ import "./assets/App.css";
 import "./assets/index.css";
 
 export default class App extends Component {
+  constructor() {
+    super();
+    this.notas = [];
+  }
+
   createNote(titulo, texto) {
-    console.log(`uma nova nota foi criada ${titulo} ${texto}`);
+    const newNote = { titulo, texto };
+    this.notas.push(newNote);
+    console.log(this.notas.length);
   }
 
   render() {
     return (
       <section className="conteudo">
-        <FormularioCadastro createNote={this.createNote} />
-        <ListaDeNotas />
+        <FormularioCadastro createNote={this.createNote.bind(this)} />
+        <ListaDeNotas notas={this.notas} />
       </section>
     );
   }
