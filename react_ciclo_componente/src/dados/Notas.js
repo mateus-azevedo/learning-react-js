@@ -6,6 +6,7 @@ export default class ArrayDeNotas {
 
   adicionarNota(titulo, texto, categoria) {
     const novaNota = new Nota(titulo, texto, categoria);
+    console.log(this.notas);
     this.notas.push(novaNota);
   }
 
