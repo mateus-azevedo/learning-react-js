@@ -6,6 +6,13 @@
 - Crie Sites com mais facilidade
 - Conheça como o React funciona para otimizar seus sites
 
+### O que aprendemos na aula "Deletando um card":
+
+- Diferentes maneiras de importar SVGs
+- Passando funções como propriedades para outros componentes
+- Revisão State e bind
+- O que é e para que serve a ferramenta SVGR
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
