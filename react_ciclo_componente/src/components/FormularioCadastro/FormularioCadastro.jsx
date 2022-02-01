@@ -9,6 +9,11 @@ export default class FormularioCadastro extends Component {
     this.categoria = "Sem Categoria";
   }
 
+  _handleChangeCategory(event) {
+    event.stopPropagation();
+    this.categoria = event.target.value;
+  }
+
   _handleChangeTitle(event) {
     event.stopPropagation();
     this.titulo = event.target.value;
@@ -17,11 +22,6 @@ export default class FormularioCadastro extends Component {
   _handleChangeText(event) {
     event.stopPropagation();
     this.texto = event.target.value;
-  }
-
-  _handleChangeCategory(event) {
-    event.stopPropagation();
-    this.categoria = event.target.value;
   }
 
   _createNote(event) {
