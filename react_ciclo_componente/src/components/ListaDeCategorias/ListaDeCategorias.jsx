@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import "./style.css";
 export default class ListaDeCategorias extends Component {
-  state = {};
+  _handleEventoInput(event) {
+    if (event.key === "Enter") {
+      console.log("Adicionar Categoria");
+    }
+  }
 
   render() {
     return (
@@ -16,6 +20,7 @@ export default class ListaDeCategorias extends Component {
           type="text"
           className="lista-categorias_input"
           placeholder="Adicionar Categoria"
+          onKeyUp={this._handleEventoInput.bind(this)}
         />
       </section>
     );
