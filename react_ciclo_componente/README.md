@@ -1,10 +1,10 @@
 ## O que foi aprendido:
 
-- Aprenda a criar class components dentro do React
-- Saiba como passar informações entre os componentes
-- Entenda como o "this" funciona dentro do Javascript
-- Crie Sites com mais facilidade
-- Conheça como o React funciona para otimizar seus sites
+- Aprenda sobre o ciclo de vida dos componentes React
+- Entenda os possíveis problemas de performance da aplicação
+- Saiba adicionar o padrão de projetos Observable em seus sites
+- Conheça diferentes forma de carregar um SVG dentro do site
+- Compreenda a diferença entre Statefull e Stateless components
 
 ### O que aprendemos na aula 01 "Deletando um card":
 
