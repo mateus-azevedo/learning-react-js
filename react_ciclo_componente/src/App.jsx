@@ -10,12 +10,12 @@ export default class App extends Component {
     super();
     this.state = {
       notas: [],
-      categorias: [],
+      categorias: ["Games", "Musica"],
     };
   }
 
-  createNote(titulo, texto) {
-    const newNote = { titulo, texto };
+  createNote(titulo, texto, categoria) {
+    const newNote = { titulo, texto, categoria };
     const newArrayOfNotes = [...this.state.notas, newNote];
     const newState = {
       notas: newArrayOfNotes,
@@ -51,6 +51,7 @@ export default class App extends Component {
           />
           <ListaDeNotas
             notas={this.state.notas}
+            categorias={this.state.categorias}
             apagarNota={this.deleteNote.bind(this)}
           />
         </main>
