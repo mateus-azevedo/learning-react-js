@@ -24,6 +24,12 @@ export default class App extends Component {
     this.setState(newState);
   }
 
+  adicionarCategoria(nomeCategoria) {
+    const novoArrayCategorias = [...this.state.categorias, nomeCategoria];
+    const novoEstado = { ...this.state, categorias: novoArrayCategorias };
+    this.setState(novoEstado);
+  }
+
   deleteNote(index) {
     let arrayNotas = this.state.notas;
     arrayNotas.splice(index, 1);
@@ -36,7 +42,10 @@ export default class App extends Component {
       <section className="conteudo">
         <FormularioCadastro createNote={this.createNote.bind(this)} />
         <main className="conteudo-principal">
-          <ListaDeCategorias />
+          <ListaDeCategorias
+            categorias={this.state.categorias}
+            adicionarCategoria={this.adicionarCategoria.bind(this)}
+          />
           <ListaDeNotas
             notas={this.state.notas}
             apagarNota={this.deleteNote.bind(this)}

@@ -3,7 +3,8 @@ import "./style.css";
 export default class ListaDeCategorias extends Component {
   _handleEventoInput(event) {
     if (event.key === "Enter") {
-      console.log("Adicionar Categoria");
+      let valorCategoria = event.target.value;
+      this.props.adicionarCategoria(valorCategoria);
     }
   }
 
@@ -11,10 +12,13 @@ export default class ListaDeCategorias extends Component {
     return (
       <section className="lista-categorias">
         <ul className="lista-categorias_lista">
-          <li className="lista-categorias_item">categorias</li>
-          <li className="lista-categorias_item">categorias</li>
-          <li className="lista-categorias_item">categorias</li>
-          <li className="lista-categorias_item">categorias</li>
+          {this.props.categorias.map((categoria, index) => {
+            return (
+              <li key={index} className="lista-categorias_item">
+                {categoria}
+              </li>
+            );
+          })}
         </ul>
         <input
           type="text"
