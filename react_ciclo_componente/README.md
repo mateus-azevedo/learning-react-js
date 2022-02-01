@@ -13,6 +13,14 @@
 - Revisão State e bind
 - O que é e para que serve a ferramenta SVGR
 
+### O que aprendemos na aula "Criando lista de categorias":
+
+- O que é o componente Fragment
+- Qual a diferença entre stateless e statefull components
+- Como decidir onde colocar informações
+- Como funciona o Spread Operator do JS
+- Passando funções por propriedade e gerenciando estado
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
