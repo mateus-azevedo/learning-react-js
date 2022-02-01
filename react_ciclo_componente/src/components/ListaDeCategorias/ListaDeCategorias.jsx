@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
+
 export default class ListaDeCategorias extends Component {
   _handleEventoInput(event) {
     if (event.key === "Enter") {
