@@ -22,11 +22,21 @@ export default class App extends Component {
     this.setState(newState);
   }
 
+  deleteNote(index) {
+    let arrayNotas = this.state.notas;
+    arrayNotas.splice(index, 1);
+    console.log(index);
+    this.setState({ notas: arrayNotas });
+  }
+
   render() {
     return (
       <section className="conteudo">
         <FormularioCadastro createNote={this.createNote.bind(this)} />
-        <ListaDeNotas notas={this.state.notas} />
+        <ListaDeNotas
+          notas={this.state.notas}
+          apagarNota={this.deleteNote.bind(this)}
+        />
       </section>
     );
   }
