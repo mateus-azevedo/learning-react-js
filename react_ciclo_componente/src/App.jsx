@@ -28,7 +28,6 @@ export default class App extends Component {
           />
           <ListaDeNotas
             notas={this.notas.notas}
-            categorias={this.categorias.categorias}
             apagarNota={this.notas.apagarNota}
           />
         </main>
