@@ -11,6 +11,15 @@
 - Boas práticas de UX ao trabalharmos com formulários
 - O porquê separar um formulário em muitas partes
 
+### O que aprendemos na aula 02 "Separando formulários"
+
+- Limitações do JSX com switch's
+- Chamando funções dentro do JSX
+- Relembrando closures e escopos
+- Vantagens da injeção de dependências dentro do projeto
+- Reutilização de componentes
+- Refatoração do Switch case e melhores estruturas de códigos
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
