@@ -1,12 +1,14 @@
 import React from "react";
-import { Container } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 import FormularioCadastro from "./components/FormularioCadastro";
 import "./App.css";
 
 function App() {
   return (
     <Container component="article" maxWidth="sm">
-      <h1>Formulario de Cadastro</h1>
+      <Typography variant="h3" component="h1" align="center">
+        Formulário de Cadastro
+      </Typography>
       <FormularioCadastro />
     </Container>
   );

@@ -1,6 +1,10 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField";
+import {
+  Button,
+  TextField,
+  Switch,
+  FormControlLabel,
+} from "@material-ui/core/";
 
 export default function FormularioCadastro() {
   return (
@@ -27,11 +31,14 @@ export default function FormularioCadastro() {
         fullWidth
       />
 
-      <label>Promoções</label>
-      <input type="checkbox" />
-
-      <label>Novidades</label>
-      <input type="checkbox" />
+      <FormControlLabel
+        label="Promoções"
+        control={<Switch name="promocoes" defaultChecked color="primary" />}
+      />
+      <FormControlLabel
+        label="Novidades"
+        control={<Switch name="novidades" defaultChecked color="primary" />}
+      />
 
       <Button variant="contained" color="primary" type="submit">
         Cadastrar
