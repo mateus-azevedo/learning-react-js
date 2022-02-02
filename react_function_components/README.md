@@ -13,6 +13,15 @@
 - Vantagens de se usar o MaterialUI
 - Por que usar um design system pronto facilita nossa vida
 
+### O que aprendemos na aula 02 "Utilizando o Material UI":
+
+- Como se encontrar na documentação do Material UI
+- Como utilizar diversos componentes com o MaterialUI
+- Mais propriedades do `TextField`
+- Como utilizar um container para ajudar a posição dos elementos
+- Utilizando elementos de tipografia
+- MaterialUI Switchs e FormLabelControl
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
