@@ -6,12 +6,13 @@ import {
   FormControlLabel,
 } from "@material-ui/core/";
 
-export default function FormularioCadastro({ aoEnviar }) {
+export default function FormularioCadastro({ aoEnviar, validarCPF }) {
   const [nome, setNome] = useState("");
   const [sobrenome, setSobrenome] = useState("");
   const [cpf, setCpf] = useState("");
   const [promocoes, setPromocoes] = useState(true);
   const [novidades, setNovidades] = useState(false);
+  const [erros, setErros] = useState({ cpf: { valido: false, texto: "" } });
 
   return (
     <form
@@ -48,6 +49,14 @@ export default function FormularioCadastro({ aoEnviar }) {
         variant="outlined"
         margin="normal"
         fullWidth
+        onBlur={() => {
+          const ehValido = validarCPF(cpf);
+          setErros({
+            cpf: ehValido,
+          });
+        }}
+        error={erros.cpf.valido}
+        helperText={erros.cpf.texto}
         value={cpf}
         onChange={(event) => {
           setCpf(event.target.value);
