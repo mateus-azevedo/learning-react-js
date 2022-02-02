@@ -30,6 +30,14 @@
 - Desconstrução de `Arryas`
 - Assincronicidade da função de atribuição do estado
 
+### O que aprendemos na aula 04 "Regras do Hooks"
+
+- Quais são as Regras de utilização dos Hooks
+- Propriedade checked para Switchs
+- Criando mais estados e a maneira de trabalhar com eles em function components
+- Como receber propriedades em um componente de função
+- Desconstrução de Objetos no JS
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
