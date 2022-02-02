@@ -22,6 +22,14 @@
 - Utilizando elementos de tipografia
 - MaterialUI Switchs e FormLabelControl
 
+### O que aprendemos na aula 03 "Forms e Hooks"
+
+- O que é um formulário não encontrado
+- problemas com mais de uma fonte de verdade
+- Hooks e useState
+- Desconstrução de `Arryas`
+- Assincronicidade da função de atribuição do estado
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
