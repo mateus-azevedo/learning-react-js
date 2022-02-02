@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Button,
   TextField,
@@ -7,14 +7,28 @@ import {
 } from "@material-ui/core/";
 
 export default function FormularioCadastro() {
+  const [nome, setNome] = useState("Ricardo");
+
   return (
-    <form>
+    <form
+      onSubmit={(event) => {
+        event.preventDefault();
+        console.log(nome);
+      }}
+    >
       <TextField
         id="nome"
         label="Nome"
         variant="outlined"
         margin="normal"
         fullWidth
+        value={nome}
+        onChange={(event) => {
+          setNome(event.target.value);
+          if (nome.length >= 3) {
+            setNome(nome.substr(0, 3));
+          }
+        }}
       />
       <TextField
         id="sobrenome"
