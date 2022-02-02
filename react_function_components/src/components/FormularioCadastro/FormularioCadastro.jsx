@@ -7,7 +7,8 @@ import {
 } from "@material-ui/core/";
 
 export default function FormularioCadastro() {
-  const [nome, setNome] = useState("Ricardo");
+  const [nome, setNome] = useState("");
+  const [sobrenome, setSobrenome] = useState("");
 
   return (
     <form
@@ -24,10 +25,12 @@ export default function FormularioCadastro() {
         fullWidth
         value={nome}
         onChange={(event) => {
-          setNome(event.target.value);
+          let tmpNome = event.target.value;
           if (nome.length >= 3) {
-            setNome(nome.substr(0, 3));
+            tmpNome = setNome(nome.substr(0, 3));
           }
+
+          setNome(tmpNome);
         }}
       />
       <TextField
@@ -36,6 +39,10 @@ export default function FormularioCadastro() {
         variant="outlined"
         margin="normal"
         fullWidth
+        value={sobrenome}
+        onChange={(event) => {
+          setSobrenome(event.target.value);
+        }}
       />
       <TextField
         id="CPF"
