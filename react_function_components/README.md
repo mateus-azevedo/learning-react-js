@@ -38,6 +38,13 @@
 - Como receber propriedades em um componente de função
 - Desconstrução de Objetos no JS
 
+### O que aprendemos na aula 05 "Tratamento de erros"
+
+- Propriedade ero do `TextField` e `HelperText` dentro de inputs do Material UI
+- Usando o estado para controlar a exibição de erros
+- Recebendo validação de maneira externa
+- Como deixar os componentes mais reutilizáveis
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
