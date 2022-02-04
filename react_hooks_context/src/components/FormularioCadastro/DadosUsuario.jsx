@@ -1,30 +1,18 @@
 import React, { useState, useContext } from "react";
-import { Button, TextField } from "@material-ui/core";
+import { TextField, Button } from "@material-ui/core";
 import ValidacoesCadastro from "../../contexts/ValidacoesCadastro";
 import useErros from "../../hooks/useErros";
 
-export default function DadosUsuarios({ aoEnviar }) {
+function DadosUsuario({ aoEnviar }) {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
   const validacoes = useContext(ValidacoesCadastro);
-
-  const [erros, validarCampos] = useErros(validacoes);
-
-  function possoEnviar() {
-    for (let campo in erros) {
-      if (!erros[campo].valido) {
-        return false;
-      }
-    }
-
-    return true;
-  }
+  const [erros, validarCampos, possoEnviar] = useErros(validacoes);
 
   return (
     <form
       onSubmit={(event) => {
         event.preventDefault();
-
         if (possoEnviar()) {
           aoEnviar({ email, senha });
         }
@@ -39,9 +27,9 @@ export default function DadosUsuarios({ aoEnviar }) {
         name="email"
         label="email"
         type="email"
+        required
         variant="outlined"
         margin="normal"
-        required
         fullWidth
       />
       <TextField
@@ -56,9 +44,9 @@ export default function DadosUsuarios({ aoEnviar }) {
         name="senha"
         label="senha"
         type="password"
+        required
         variant="outlined"
         margin="normal"
-        required
         fullWidth
       />
       <Button type="submit" variant="contained" color="primary">
@@ -67,3 +55,5 @@ export default function DadosUsuarios({ aoEnviar }) {
     </form>
   );
 }
+
+export default DadosUsuario;

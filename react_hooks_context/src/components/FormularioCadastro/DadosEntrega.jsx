@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Button, TextField } from "@material-ui/core";
-
-export default function DadosEntregas({ aoEnviar }) {
+import { TextField, Button } from "@material-ui/core";
+function DadosEntrega({ aoEnviar }) {
   const [cep, setCep] = useState("");
   const [endereco, setEndereco] = useState("");
   const [numero, setNumero] = useState("");
@@ -21,6 +20,7 @@ export default function DadosEntregas({ aoEnviar }) {
           setCep(event.target.value);
         }}
         id="cep"
+        name="cep"
         label="CEP"
         type="number"
         variant="outlined"
@@ -32,7 +32,8 @@ export default function DadosEntregas({ aoEnviar }) {
           setEndereco(event.target.value);
         }}
         id="endereco"
-        label="Endereço"
+        name="endereço"
+        label="Enderço"
         type="text"
         variant="outlined"
         margin="normal"
@@ -44,6 +45,7 @@ export default function DadosEntregas({ aoEnviar }) {
           setNumero(event.target.value);
         }}
         id="numero"
+        name="numero"
         label="Numero"
         type="number"
         variant="outlined"
@@ -55,6 +57,7 @@ export default function DadosEntregas({ aoEnviar }) {
           setEstado(event.target.value);
         }}
         id="estado"
+        name="estado"
         label="Estado"
         type="text"
         variant="outlined"
@@ -72,10 +75,11 @@ export default function DadosEntregas({ aoEnviar }) {
         variant="outlined"
         margin="normal"
       />
-
       <Button type="submit" variant="contained" color="primary" fullWidth>
-        Cadastrar
+        Finalizar Cadastro
       </Button>
     </form>
   );
 }
+
+export default DadosEntrega;
