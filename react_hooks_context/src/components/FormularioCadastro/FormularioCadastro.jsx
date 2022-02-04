@@ -4,12 +4,13 @@ import DadosUsuarios from "./DadosUsuarios";
 import DadosEntregas from "./DadosEntregas";
 
 export default function FormularioCadastro({ aoEnviar, validarCPF }) {
+  const [etapaAtual, setEtapaAtual] = useState(0);
+
   const formularios = [
     <DadosUsuarios aoEnviar={proximo} />,
     <DadosPessoais aoEnviar={proximo} validarCPF={validarCPF} />,
     <DadosEntregas aoEnviar={aoEnviar} />,
   ];
-  const [etapaAtual, setEtapaAtual] = useState(0);
 
   function proximo() {
     setEtapaAtual(etapaAtual + 1);
