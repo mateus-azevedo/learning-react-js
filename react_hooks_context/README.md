@@ -20,6 +20,13 @@
 - Reutilização de componentes
 - Refatoração do Switch case e melhores estruturas de códigos
 
+### O que aprendemos na aula 03 "Controlando Ciclo de Vida"
+
+- Como lidar com problemas de assincronicidade
+- Quando usar o Hook de UseEffect
+- Ciclo de vida dos componentes funcionais
+- Como utilizar o component Stepper do MaterialUI
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
