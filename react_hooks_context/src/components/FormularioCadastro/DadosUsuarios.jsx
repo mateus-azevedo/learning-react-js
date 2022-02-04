@@ -1,23 +1,45 @@
 import React, { useState } from "react";
 import { Button, TextField } from "@material-ui/core";
 
-export default function DadosUsuarios({ aoEnviar }) {
-  const [email, setEmal] = useState("");
+export default function DadosUsuarios({ aoEnviar, validacoes }) {
+  const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
+  const [erros, setErros] = useState({ senha: { valido: true, texto: "" } });
+
+  function validarCampos(event) {
+    const { name, value } = event.target;
+    const novoEstado = { ...erros };
+    novoEstado[name] = validacoes[name](value);
+    setErros(novoEstado);
+  }
+
+  function possoEnviar() {
+    for (let campo in erros) {
+      if (!erros[campo].valido) {
+        return false;
+      }
+    }
+
+    return true;
+  }
 
   return (
     <form
       onSubmit={(event) => {
         event.preventDefault();
-        aoEnviar({ email, senha });
+
+        if (possoEnviar()) {
+          aoEnviar({ email, senha });
+        }
       }}
     >
       <TextField
         value={email}
         onChange={(event) => {
-          setEmal(event.target.value);
+          setEmail(event.target.value);
         }}
         id="email"
+        name="email"
         label="email"
         type="email"
         variant="outlined"
@@ -30,7 +52,11 @@ export default function DadosUsuarios({ aoEnviar }) {
         onChange={(event) => {
           setSenha(event.target.value);
         }}
+        onBlur={validarCampos}
+        error={!erros.senha.valido}
+        helperText={erros.senha.texto}
         id="senha"
+        name="senha"
         label="senha"
         type="password"
         variant="outlined"
@@ -39,7 +65,7 @@ export default function DadosUsuarios({ aoEnviar }) {
         fullWidth
       />
       <Button type="submit" variant="contained" color="primary">
-        Cadastar
+        Próximo
       </Button>
     </form>
   );

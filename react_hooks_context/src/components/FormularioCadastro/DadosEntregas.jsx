@@ -66,6 +66,7 @@ export default function DadosEntregas({ aoEnviar }) {
           setCidade(event.target.value);
         }}
         id="cidade"
+        name="cidade"
         label="Cidade"
         type="text"
         variant="outlined"
@@ -73,7 +74,7 @@ export default function DadosEntregas({ aoEnviar }) {
       />
 
       <Button type="submit" variant="contained" color="primary" fullWidth>
-        Finalizar Cadastro
+        Cadastrar
       </Button>
     </form>
   );
