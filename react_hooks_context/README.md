@@ -34,6 +34,13 @@
 - Usando contextos no React para resolver o problema de <i>[prop drilling](https://www.alura.com.br/artigos/prop-drilling-no-react-js)</i>
 - Problemas de informações demais e complexidade de código
 
+### O que aprendemos na aula 05 "Hooks customizados"
+
+- Como usar valores padrão dentro de um contexto
+- Porque precisamos de <i>Providers</i> e quais suas vantagens
+- Como criar [Hooks Customizados](https://pt-br.reactjs.org/docs/hooks-custom.html) e quais são suas regras
+- Como compartilhar código entre componentes de maneira apropriada
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
