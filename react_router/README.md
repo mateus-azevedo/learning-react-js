@@ -19,6 +19,12 @@
 - Vimos a diferença entre uma SPA (Single Page Application) e uma MPA (Multi Pages Application)
 - Montamos a navbar utilizando o React Routes para simular uma MPA (Multi Pages Application)
 
+### O que aprendemos na aula 03 "Conectando com API":
+
+- Mudamos a tag `<a>` do html para que o React consiga entender utilizando o `Link`;
+- Utilizamos a biblioteca axios para fazer requisições no servidor para buscar artigos;
+- Fizemos uma requisição de um artigo específico passando o id do curso, utilizando o `useEffect`.
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
