@@ -4,6 +4,8 @@ import privado from "../../assets/images/privado.svg";
 import olho_icone from "../../assets/images/olho.svg";
 import dinheiro from "../../assets/images/dinheiro.svg";
 
+import { Icone } from "../UI";
+
 const Conta = () => {
   const [toggleState, untoggle] = useState(true);
 
@@ -27,9 +29,8 @@ const Conta = () => {
       </div>
 
       <button className="btn" onClick={toggleHandler}>
-        <img
+        <Icone
           style={{ marginTop: "2px" }}
-          className="imagem-icone"
           src={toggleState ? privado : olho_icone}
           alt="Privacidade do Saldo"
         />
