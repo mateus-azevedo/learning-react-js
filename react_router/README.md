@@ -30,6 +30,12 @@
 - Mandamos a pessoa para o componente de 404 utilizando a função `useHistory()`;
 - Melhoramos a experiência de buscar um artigo criando um filtro por categorias;
 
+### O que aprendemos na aula 05 "Rotas aninhadas":
+
+- Trabalhamos com rotas aninhadas
+- Vimos como criar uma segunda camada de filtros para mostrar artigos de uma subcategoria específica, melhorando a experiência de quem for buscar algum artigo.
+- Usamos o hook `useRouteMatch` para criar caminhos dinâmicos
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
