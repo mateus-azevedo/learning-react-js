@@ -13,6 +13,12 @@
 - Vimos o problema de se utilizar as condições `if` para a navegação de componentes.
 - Melhoramos o código com a biblioteca do React Router e deixamos a responsabilidade de direcionar os componentes com ela.
 
+### O que aprendemos na aula 02 "Criando componentes":
+
+- Criamos um componente 404 para quando a pessoa tentar acessar alguma página que não existe
+- Vimos a diferença entre uma SPA (Single Page Application) e uma MPA (Multi Pages Application)
+- Montamos a navbar utilizando o React Routes para simular uma MPA (Multi Pages Application)
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
