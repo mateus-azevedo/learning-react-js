@@ -14,3 +14,10 @@
 - Imoprtando fontes do google para o projeto
 - Criando variáveis para cores do projeto
 - Utilizando propriedades em <b>Componentes estilizados</b>
+
+#### O que aprendemos na aula 03 "Refatorações":
+
+- Porque usar <i>inline styles</i> é algo ruim
+- Como usar heranças de estilo
+- Sobre possíveis problemas de performance caso um `Styled Component` seja declarado dentro de um outro componente React
+- Como tratar de <i>media queries</i> dentro dos componentes estilizados
