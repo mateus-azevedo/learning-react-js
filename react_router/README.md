@@ -25,6 +25,11 @@
 - Utilizamos a biblioteca axios para fazer requisições no servidor para buscar artigos;
 - Fizemos uma requisição de um artigo específico passando o id do curso, utilizando o `useEffect`.
 
+### O que aprendemos na aula 04 "Exibindo post e categoria":
+
+- Mandamos a pessoa para o componente de 404 utilizando a função `useHistory()`;
+- Melhoramos a experiência de buscar um artigo criando um filtro por categorias;
+
 ### `npm start`
 
 Rode o app em modo de desenvolvedor\
