@@ -28,3 +28,9 @@
 - Vantagens de usar componentes para criar layouts
 - Utilizando `styled components` apenas para estilização
 - Porque evitar o uso ded `switch-case`
+
+#### O que aprendemos na aula 05 "Tema":
+
+- Como organizar os temas do nosso projeto
+- O que é `ThemeProvider` do <b>styledComponents</b>
+- Como alterar cores de icones SVG usando `filters`
