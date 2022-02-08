@@ -21,3 +21,10 @@
 - Como usar heranças de estilo
 - Sobre possíveis problemas de performance caso um `Styled Component` seja declarado dentro de um outro componente React
 - Como tratar de <i>media queries</i> dentro dos componentes estilizados
+
+#### O que aprendemos na aula 04 "Novo item":
+
+- Como compor elementos estilizados para criar novas telas
+- Vantagens de usar componentes para criar layouts
+- Utilizando `styled components` apenas para estilização
+- Porque evitar o uso ded `switch-case`
