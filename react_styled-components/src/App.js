@@ -8,10 +8,9 @@ import Container from "./Components/Container";
 function App() {
   return (
     <>
-      <GlobalStyle>
-        <Cabecalho />
-        <Container />
-      </GlobalStyle>
+      <GlobalStyle />
+      <Cabecalho />
+      <Container />
     </>
   );
 }

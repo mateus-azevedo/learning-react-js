@@ -9,7 +9,7 @@ const BtnCabecalho = styled.a`
   padding: 5px 20px;
   margin 0 10px;
   font-weight: 600;
-  border: 2px solid hite;
+  border: 2px solid white;
 
   background:${(props) => (props.primary ? "white" : corPrimaria)};
   color: ${(props) => (props.primary ? corPrimaria : "white")};
