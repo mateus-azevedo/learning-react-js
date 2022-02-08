@@ -1,3 +1,5 @@
+# React: Hooks, Contextos e boas práticas
+
 ## O que foi aprendido:
 
 - Aprenda mais sobre Hooks
@@ -6,12 +8,12 @@
 - aiba as melhores práticas ao trabalhar com propriedades
 - Conheça as técnicas de validação de dados em formulários
 
-### O que aprendemos na aula 01 "Entendendo o problema":
+#### O que aprendemos na aula 01 "Entendendo o problema":
 
 - Boas práticas de UX ao trabalharmos com formulários
 - O porquê separar um formulário em muitas partes
 
-### O que aprendemos na aula 02 "Separando formulários"
+#### O que aprendemos na aula 02 "Separando formulários"
 
 - Limitações do JSX com switch's
 - Chamando funções dentro do JSX
@@ -20,21 +22,21 @@
 - Reutilização de componentes
 - Refatoração do Switch case e melhores estruturas de códigos
 
-### O que aprendemos na aula 03 "Controlando Ciclo de Vida"
+#### O que aprendemos na aula 03 "Controlando Ciclo de Vida"
 
 - Como lidar com problemas de assincronicidade
 - Quando usar o Hook de UseEffect
 - Ciclo de vida dos componentes funcionais
 - Como utilizar o component Stepper do MaterialUI
 
-### O que aprendemos na aula 04 "Contextos e Providers"
+#### O que aprendemos na aula 04 "Contextos e Providers"
 
 - Extraindo lógica da parte de renderização
 - Boas práticas na reutilização de funcionalidades
 - Usando contextos no React para resolver o problema de <i>[prop drilling](https://www.alura.com.br/artigos/prop-drilling-no-react-js)</i>
 - Problemas de informações demais e complexidade de código
 
-### O que aprendemos na aula 05 "Hooks customizados"
+#### O que aprendemos na aula 05 "Hooks customizados"
 
 - Como usar valores padrão dentro de um contexto
 - Porque precisamos de <i>Providers</i> e quais suas vantagens

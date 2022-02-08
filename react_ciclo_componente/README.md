@@ -1,3 +1,5 @@
+# React: Ciclo de vida dos componentes
+
 ## O que foi aprendido:
 
 - Aprenda sobre o ciclo de vida dos componentes React
@@ -6,14 +8,14 @@
 - Conheça diferentes forma de carregar um SVG dentro do site
 - Compreenda a diferença entre Statefull e Stateless components
 
-### O que aprendemos na aula 01 "Deletando um card":
+#### O que aprendemos na aula 01 "Deletando um card":
 
 - Diferentes maneiras de importar SVGs
 - Passando funções como propriedades para outros componentes
 - Revisão State e bind
 - O que é e para que serve a ferramenta SVGR
 
-### O que aprendemos na aula 02 "Criando lista de categorias":
+#### O que aprendemos na aula 02 "Criando lista de categorias":
 
 - O que é o componente Fragment
 - Qual a diferença entre stateless e statefull components
@@ -21,7 +23,7 @@
 - Como funciona o Spread Operator do JS
 - Passando funções por propriedade e gerenciando estado
 
-### O que aprendemos na aula 03 "Seguindo padrões":
+#### O que aprendemos na aula 03 "Seguindo padrões":
 
 - Como adicionar options no formulário dinamicamente
 - Fizemos uma reflexão sobre o design do projeto
@@ -29,7 +31,7 @@
 - Separação entre dados e visualização e quais as vantagens dessa abordagem
 - Problemas com renderização e otimização do projeto
 
-### O que aprendemos na aula 04 "Observable":
+#### O que aprendemos na aula 04 "Observable":
 
 - Por que é bom tirarmos referências do state em componentes que estão muito acima na hierarquia
 - Por que precisamos de uma fonte de dados
@@ -37,7 +39,7 @@
 - Padrão de projeto Observable
 - Vantagens de se fazer injeção de dependências
 
-### O que aprendemos na aula 05 "Ciclo de vida dos objetos":
+#### O que aprendemos na aula 05 "Ciclo de vida dos objetos":
 
 - Como funciona o ciclo de vida dos componentes
 - Métodos do ciclo de vida como o `ComponentDidMount` e o `ComponentWillUnmount` ([UNSAFE_componentWillMount](https://pt-br.reactjs.org/docs/react-component.html#unsafe_componentwillmount))
