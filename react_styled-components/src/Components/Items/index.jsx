@@ -14,7 +14,8 @@ const Items = styled.div`
   font-size: 12px;
 `;
 
-export default ({ props }) => {
+export default (props) => {
+  console.log(props);
   return (
     <Items>
       {ImageFilter(props.type)}
