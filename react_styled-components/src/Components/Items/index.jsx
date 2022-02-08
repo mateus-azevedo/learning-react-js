@@ -15,7 +15,6 @@ const Items = styled.div`
 `;
 
 export default (props) => {
-  console.log(props);
   return (
     <Items>
       {ImageFilter(props.type)}
