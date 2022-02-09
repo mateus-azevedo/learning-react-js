@@ -11,6 +11,14 @@
 - Entender o que são testes unitários e em qual sitaução usá-los
 - Criar funções puras e sua utilizade
 
+#### O que foi aprendido na aula 03 "Testando componentes React":
+
+- Criar testes de snapshot e entender que situações utilizá-los
+- Criar testes usando React Testing Library
+- Simular comportamentos de seus usuários nos testes
+- Renderizar um componente React
+- Acessar o componente renderizado
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
