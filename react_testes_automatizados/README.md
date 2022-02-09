@@ -30,6 +30,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tipos de Testes
+
+- Na base da pirâmide estão os testes unitários funcionam para testar as menores partes do nosso projeto, por exemplo: funções, módulos, componentes.
+- No meio da pirâmide temos os testes de integração após todos os testes menores (unitários) realizados. Nós precisaremos saber como eles estão interagindo, por exemplo: como a requisição está sendo feito para o backend, como nossa conexão com BD está se comportando, como um conjunto de componentes estão trabalho juntos.
+- No topo da pirâmide temos os testes e2e (end to end) eles testam, por exemplo, um fluxo inteiro que o usuário interagie, uma feature completa, simulam também como usuário está interagindo com a página.
+
+### Código descatável
+
+POCs, Página para campanha de MKT (Landing Pages), Teste A/B
+
 ## Available Scripts
 
 In the project directory, you can run:
