@@ -8,12 +8,12 @@
 - Crie Sites com mais facilidade
 - Conheça como o React funciona para otimizar seus sites
 
-#### O que foi aprendido na aula 01 "Criando o projeto":
+#### O que aprendemos na aula 01 "Criando o projeto":
 
 Como preparar o ambiente instalando o [Node.js](https://nodejs.org/en/download/) e o <b>NPX</b> para podermos criar a aplicação via `Create-React-App`.
 Limpamos o projeto para não deixar elementos que não serão utilizados mais pra frente sujarem nossa hierarquia.
 
-#### O que foi aprendido na aula 02 "Componentizando o sistema":
+#### O que aprendemos na aula 02 "Componentizando o sistema":
 
 - Como podemos criar `class components`
 - Entendendo como o JSX renderiza objetos
@@ -21,7 +21,7 @@ Limpamos o projeto para não deixar elementos que não serão utilizados mais pr
 - Componentes podem ter filhos que são componentes
 - Como integrar o Javascript no meio do seu JSX
 
-#### O que foi aprendido na aula 03 "Estilizando componentes":
+#### O que aprendemos na aula 03 "Estilizando componentes":
 
 - Como integrar CSS dentro da sua aplicação React
 - Diferenças do `class` e `className`
@@ -31,14 +31,14 @@ Limpamos o projeto para não deixar elementos que não serão utilizados mais pr
 - Ponto de entrada dos módulos
 - Organização do projeto
 
-#### O que foi aprendido na aula 04 "Lidando com eventos e propriedades":
+#### O que aprendemos na aula 04 "Lidando com eventos e propriedades":
 
 - Como o `this` do JS é dinâmico e como lidar com isso
 - Referências para funções e injeção de dependências
 - Assoiando referências através do `bind`
 - Passando propriedades para elementos filhos
 
-#### O que foi aprendido na aula 05 "Controlando o estado e a renderização":
+#### O que aprendemos na aula 05 "Controlando o estado e a renderização":
 
 - Pensando sobre como transmitir informações entre objetos
 - Fluxo de atualização do sistema

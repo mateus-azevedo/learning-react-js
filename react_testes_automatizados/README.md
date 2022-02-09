@@ -1,17 +1,34 @@
-#### O que foi aprendido na aula 01 "Começando a escrever testes":
+# React: Automatizando os testes em aplicações front-end
+
+## Como rodar?
+
+- yarn start (front-end)
+- yarn backend (autoexplicativo)
+- yarn test (autoexplicativo)
+
+## O que foi aprendido:
+
+- Garanta a funcionalidade da aplicação através de testes automatizados
+- Conheça as principais ferramentas de mercado para testes em projetos com React
+- Aprenda a fazer testes descritivos e consistentes
+- Entenda o que precisa ser testado e o que não precisa
+- Garanta a qualidade do seu código e prepare-se para trabalhar em grandes projetos
+- Torne-se um(a) profissional mais competitivo(a) no mercado de desenvolvimento
+
+#### O que aprendemos na aula 01 "Começando a escrever testes":
 
 - Criar um arquivo de teste
 - Executar os testes da aplicação
 - Criar uma estrutura de testes usando `describe`, `it` e `test`
 - Organizar vários testes de um mesmo componente
 
-#### O que foi aprendido na aula 02 "Testando funções":
+#### O que aprendemos na aula 02 "Testando funções":
 
 - Como testar funções e móduos de uma aplicação
 - Entender o que são testes unitários e em qual sitaução usá-los
 - Criar funções puras e sua utilizade
 
-#### O que foi aprendido na aula 03 "Testando componentes React":
+#### O que aprendemos na aula 03 "Testando componentes React":
 
 - Criar testes de snapshot e entender que situações utilizá-los
 - Criar testes usando React Testing Library
@@ -19,7 +36,7 @@
 - Renderizar um componente React
 - Acessar o componente renderizado
 
-#### O que foi aprendido na aula 04 "Simulando comportamentos":
+#### O que aprendemos na aula 04 "Simulando comportamentos":
 
 - Entender o que são queries do react Testing Library e como usá-las no seu teste
 - Entender o que é um mock e como utilizá-lo
@@ -28,7 +45,7 @@
 - Testar uma requisição para um endpoint
 - Simular uma função e em quais casos de teste isso pode ser útil
 
-#### O que foi aprendido na aula 05 "Quando usar cada tipo de teste":
+#### O que aprendemos na aula 05 "Quando usar cada tipo de teste":
 
 - Entender a pirâmide de testes.
 - Os tipos de teste mais comuns no backend e frontend: unitário, integração e end to end.

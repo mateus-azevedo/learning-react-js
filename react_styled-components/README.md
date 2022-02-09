@@ -1,5 +1,13 @@
 # React: Abstraindo seu CSS com Styled Components
 
+## O que foi aprendido:
+
+- Entenda os problemas de conflitos de nomes de classes com CSS
+- Saiba como usar o Styled Components dentro do projeto
+- Conheça quando usar os estilos globais
+- Aprenda a utilizar herança dentro dos componentes
+- Compreenda as vantagens de um projeto bem organizado
+
 #### O que aprendemos na aula 01 "Styled Components":
 
 - Como instalar o `Styled Components` dentro do projeto

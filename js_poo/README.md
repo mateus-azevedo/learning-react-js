@@ -10,14 +10,14 @@
 
 <i>Código Executado com node</i>
 
-#### O que foi aprendido aula 01 "Repetição de código":
+#### O que aprendemos aula 01 "Repetição de código":
 
 - Criando classes
 - O que são atributos
 - Instância/Objeto
 - Operador new
 
-#### O que foi aprendido aula 02 "Adicionando comportamentos":
+#### O que aprendemos aula 02 "Adicionando comportamentos":
 
 - Criação de métodos
 - Palavra chave <i>this</i>
@@ -25,7 +25,7 @@
 - Proposta de atributos privados
 - Return e <i>early return</i>
 
-#### O que foi aprendido aula 03 "Modularizando código":
+#### O que aprendemos aula 03 "Modularizando código":
 
 - Package.json
 - Modules
@@ -34,7 +34,7 @@
 - Tipos de valor e tipos de referência
 - Alterando dinamicamente um objeto
 
-#### O que foi aprendido aula 04 "Acessando Atributos privados":
+#### O que aprendemos aula 04 "Acessando Atributos privados":
 
 - Diferenças entre null e undefined
 - Aprofundando nos conceitos de refências a um espaço de memória

@@ -10,7 +10,7 @@
 
 <i>Código Executado com node</i>
 
-#### O que foi aprendido aula 01 "Conhecendo o problema do cliente":
+#### O que aprendemos aula 01 "Conhecendo o problema do cliente":
 
 - Relembramos conceitos de classe e propriedades
 - Boas práticas na hora de declarar atributos
@@ -18,7 +18,7 @@
 - Problemas de duplicação de código
 - Problemas de código extremamente compartilhado
 
-#### O que foi aprendido aula 02 "Herança":
+#### O que aprendemos aula 02 "Herança":
 
 - Especializando código
 - Herdando propriedades e atributos
@@ -29,7 +29,7 @@
 - Palavra-chave <b>Super</b>
 - Método e propriedades privadas e protegidas
 
-#### O que foi aprendido aula 03 "Classes abstratas":
+#### O que aprendemos aula 03 "Classes abstratas":
 
 - Como o JS sabe quem está sendo instanciado
 - Pensando na proteção do nosso sistema
@@ -38,14 +38,14 @@
 - Métodos abstratos
 - Erros em tempo de execução
 
-#### O que foi aprendido aula 04 "Sistema interno":
+#### O que aprendemos aula 04 "Sistema interno":
 
 - Revisão de herança, boas práticas de código e encapsulamento
 - Polimorfismo
 - Métodos estáticos
 - Maneiras de tratar objetos de diferentes tipos de maneira parecida
 
-#### O que foi aprendido aula 05 "Interfaces e Duck Type":
+#### O que aprendemos aula 05 "Interfaces e Duck Type":
 
 - operador in
 - operador instanceOf
