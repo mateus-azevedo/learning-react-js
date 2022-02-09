@@ -5,6 +5,12 @@
 - Criar uma estrutura de testes usando `describe`, `it` e `test`
 - Organizar vários testes de um mesmo componente
 
+#### O que foi aprendido na aula 02 "Testando funções":
+
+- Como testar funções e móduos de uma aplicação
+- Entender o que são testes unitários e em qual sitaução usá-los
+- Criar funções puras e sua utilizade
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
