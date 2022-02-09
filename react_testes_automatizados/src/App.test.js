@@ -46,3 +46,15 @@ describe("Componente principal", () => {
     });
   });
 });
+
+it("a função calcula o valor quadrado de um número", () => {
+  function calculoQuadrado(numero) {
+    return Math.pow(numero, 2);
+  }
+
+  const resultado = calculoQuadrado(2);
+  const resultadoB = calculoQuadrado(4);
+
+  expect(resultado).toBe(4);
+  expect(resultadoB).toBe(16);
+});
