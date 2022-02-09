@@ -1,3 +1,10 @@
+#### O que foi aprendido na aula 01 "Começando a escrever testes":
+
+- Criar um arquivo de teste
+- Executar os testes da aplicação
+- Criar uma estrutura de testes usando `describe`, `it` e `test`
+- Organizar vários testes de um mesmo componente
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
